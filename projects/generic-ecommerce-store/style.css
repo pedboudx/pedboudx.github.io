@@ -26,6 +26,10 @@ header {
     padding: 0 20px;
 }
 
+.store-name {
+margin-left: 20px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -57,8 +61,13 @@ nav ul li a:hover {
 }
 
 .cart-icon img {
-    width: 30px;
+    width: 20px;
     height: auto;
+    padding-left: 1400px;
+}
+
+.cart-icon img:hover {
+    cursor: pointer;
 }
 
 .product-container {
@@ -75,11 +84,11 @@ nav ul li a:hover {
     width: calc((100%/3) - 40px);
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     text-align:center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s , box-shadow 0.3s ease;
 }
 
 .product:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 
 }
