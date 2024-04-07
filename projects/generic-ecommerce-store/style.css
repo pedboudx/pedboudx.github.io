@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: darkolivegreen;
+    background-color: rgb(28, 38, 62);
     color: whitesmoke;
     padding: 15px 0;
     display: flex;
@@ -46,11 +46,14 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(228, 228, 228);
+    text-decoration: underline;
 }
 
 .cart-icon {
     display: flex;
     align-items: center;
+    filter: invert(100%);
+
 }
 
 .cart-icon img {
@@ -92,6 +95,12 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+.product h3 {
+    color: rgb(74, 74, 74)d4d;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
 .price {
     color: #007bff;
     font-size: 1.2rem;
@@ -113,7 +122,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: rgb(28, 38, 62);
     color: white;
     text-align: center;
     padding: 10px 0;
