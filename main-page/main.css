@@ -1,0 +1,77 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 35px;
+    display: block;
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 10px;
+
+
+}
+
+
+.item-container {
+    display: grid;
+    margin-bottom: 10px;
+    gap: 35px;
+    justify-content: center;
+
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(159, 159, 162);
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+.project-item:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: 0.2s ease-in-out;
+}
+
+.project-thumbnail {
+    margin-right: 20px;
+    object-fit: contain;
+
+}
+
+.project-thumbnail img {
+    width: 400px;
+    height: 300px;
+}
+
+
+.project-item h3,
+.project-item h4,
+.project-item p {
+    margin: 0;
+}
+
+.project-item a {
+font-size: x-large;
+padding-bottom: 15px;
+
+}
+
+.project-item a:any-link{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.project-item h4 {
+font-size: medium;
+color: grey;
+}
+
+.project-item p {
+color: rgb(120, 120, 120);
+}
