@@ -117,12 +117,40 @@ nav ul li a:hover {
     margin-bottom: 15px;
 }
 
+.price-onsale {
+    color: #a72828;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight:bold;
+}
+
+.price-crossed {
+    color: #151515;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-decoration: line-through;
+}
+
+.price-container {
+    display: inline-block;
+    position: relative;
+}
+
 .add-to-cart {
     background-color: #28a745;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.on-sale {
+    background-color: #a72828;
+    color: white;
+    border: none;
+    padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
@@ -138,6 +166,38 @@ footer {
     padding: 10px 0;
     margin-top: auto;
 }
+
+
+.star-rating {
+    display: inline-flex;
+    align-items: center;
+    scale: 30%;
+    justify-content: center;
+}
+
+.rating-count {
+    color: grey;
+    font-size: 4em;
+    text-wrap: nowrap;
+    text-align: center;
+
+}
+
+.main-title {
+    justify-content: center;
+    text-align: center;
+    color:rgb(28, 38, 62);
+    margin-bottom: 10px;
+}
+
+.items-available {
+    color: lightslategrey;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .product {
