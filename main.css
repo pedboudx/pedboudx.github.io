@@ -1,13 +1,16 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     margin-bottom: 35px;
     display: block;
-    background-color: darkslategray;
+    background: -webkit-gradient(linear, right top, left bottom, from(rgb(46, 69, 96)), to(rgb(30, 45, 62))) fixed;
     color: whitesmoke;
-    padding: 10px;
+    padding: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 
 
 }
@@ -77,4 +80,15 @@ color: grey;
 
 .project-item p {
 color: rgb(120, 120, 120);
+}
+
+.contact-me img {
+    max-width: 20px;
+    max-height: 20px;
+    padding-right: 10px;
+    
+}
+
+.contact-me > section {
+    display: flex;
 }
